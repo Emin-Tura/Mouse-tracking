@@ -1,8 +1,8 @@
 let bebekler = document.getElementsByClassName("bebek");
 console.log(bebekler);
 
-//sayfada mouse hareket ettikçe bu fonksiyon çalışsın.
-//onmousemove mosuun anlık durumunu alır
+//sayfada mouse hareket ettikce bu fonksiyon calissin.
+//onmousemove mosuun anlik durumunu alir
 
 
 document.addEventListener("mousemove", (event) => {
