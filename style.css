@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+/* videodaki
+.gozler{
+    position: absolute;
+    top: 20%;
+    transform: translateY((-50%));
+    width: 100%;
+    text-align: center;
+}
+.goz{
+    width: 240px;
+    height: 250px;
+    background-color: skyblue;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border-top: 120px solid black;
+    transition: all .5s ease;
+}
+.goz:hover{
+    border-top: 12px solid #000;
+}
+.bebek{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    background-color: black;
+    border-radius: 50%;
+    border: 10px solid rgb(119,119,199);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}  */
+
+/* benim*/
+
+.gozler {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(images.png) bottom;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+
+.goz {
+    width: 9rem;
+    height: 9rem;
+    margin-right: 2rem;
+    background-color: blueviolet;
+    border-radius: 50%;
+    position: relative;
+    border-top: 80px solid black;
+    transition: all .5s ease;
+}
+
+.goz:hover {
+    border-top: 12px solid #000;
+}
+
+.bebek {
+    position: absolute;
+    width: 2.75rem;
+    height: 2.75rem;
+    background-color: darkred;
+    border-radius: 50%;
+    border: 8px solid gray;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
